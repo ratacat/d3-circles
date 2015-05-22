@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>d3 test</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .circle {
+                background-color:#ddd;
+            }
+        </style>
+    </head>
+    <body>
+    <svg width="800" height="800">
+
+           <rect x="0" y="0" width="50" height="200" fill="gray"/>
+           <rect x="50" y="200" width="200" height="50" fill="gray"/>
+                  <g transform="translate(50,0)">
+           <circle class="circle" cx="0" cy="0" r="10"/>
+           <circle class="circle" cx="100" cy="100" r="10"/>
+           <circle cx="130" cy="120" r="10"/>
+           <circle cx="80" cy="180" r="10"/>
+           <circle cx="180" cy="80" r="10"/>
+           <circle cx="180" cy="40" r="10"/>
+
+           <text x="50" y="50">Hoi! bable!</text>
+      </g>
+    </svg>
+    </body>
+</html>
